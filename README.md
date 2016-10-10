@@ -3,7 +3,7 @@
 Stuff for my i3 config
 
 Required Packages:
-imagemagic
+imagemagic\n
 compton
 i3wm
 xrdb
