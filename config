@@ -41,6 +41,15 @@ bindsym $mod+q kill
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+##Color Definitions
+set	$teal	#05dfdf
+set	$grey	#383838
+set	$lgrey	#666666
+set	$black	#000000
+set	$white	#ffffff
+set	$red	#ff0000
+
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -167,6 +176,16 @@ bar {
 	i3bar_command i3bar -t
         position top
 	status_command i3blocks -c /home/bubba/.i3blocks.conf
+	colors {
+		#statusline	#999999
+		#background	$black
+
+		# Colors		border		backgr.		text
+		# focused_workspace	$white		$white		$black
+		# active_workspace	#073642 	#073642 	#696f89
+		# inactive_workspace	#073642 	#073642		$white
+		# urgent_workspace  	$orange		$orange		$dark
+	}
 }
 
 ###CUSTOM KEYS
