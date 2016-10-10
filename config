@@ -202,6 +202,7 @@ exec feh --bg-scale ~/bg.png
 exec --no-startup-id nm-applet
 
 ## Disable Window Title
+for_window [title="urxvt"] border pixel 1
 new_window none
 #new_float normal
 
