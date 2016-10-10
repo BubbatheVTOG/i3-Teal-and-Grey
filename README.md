@@ -15,3 +15,9 @@ Required Packages:
 <li>nm-applet
 <li>pulse audio
 </ul>
+
+Fonts used:
+<ul>
+<li>Nato Mono
+<li>Font Awesom
+</ul>
