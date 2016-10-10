@@ -228,8 +228,3 @@ exec_always compton
 
 #float java apps
 for_window [instance="sun-awt-X11-XFramePeer"] floating enable
-
-#set gaps
-gaps inner 10
-gaps outer 0 
-smart_gaps on
