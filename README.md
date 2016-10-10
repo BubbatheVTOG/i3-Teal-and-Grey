@@ -6,7 +6,7 @@ Required Packages:
 <ul>
 <li>imagemagic
 <li>compton
-<li>i3-gaps
+<li>i3wm
 <li>xrdb
 <li>i3status
 <li>pamixer
