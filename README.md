@@ -19,5 +19,5 @@ Required Packages:
 Fonts used:
 <ul>
 <li>Nato Mono
-<li>Font Awesom
+<li>Font Awesome
 </ul>
