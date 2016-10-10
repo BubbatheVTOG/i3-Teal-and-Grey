@@ -198,7 +198,7 @@ exec --no-startup-id /usr/bin/pasystray
 exec /usr/bin/pulseaudio --start
 exec /usr/bin/xrdb /home/bubba/.Xresources
 #exec /user/xcalib /home/bubba/Samsung_700Z7C_FHD_matt_CMO.icc
-exec feh --bg-scale ~/bg.jpg
+exec feh --bg-scale ~/bg.png
 exec --no-startup-id nm-applet
 
 ## Disable Window Title
