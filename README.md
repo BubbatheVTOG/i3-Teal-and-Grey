@@ -3,14 +3,15 @@
 Stuff for my i3 config
 
 Required Packages:
-imagemagic\n
-compton
-i3wm
-xrdb
-i3status
-pamixer
-i3lock
-feh
-nm-applet
-pulse audio
-
+<ul>
+<li>imagemagic
+<li>compton
+<li>i3wm
+<li>xrdb
+<li>i3status
+<li>pamixer
+<li>i3lock
+<li>feh
+<li>nm-applet
+<li>pulse audio
+</ul>
