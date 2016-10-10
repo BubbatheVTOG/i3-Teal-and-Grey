@@ -91,8 +91,10 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+set $ws1 1:
+
 # switch to workspace
-bindsym $mod+1 workspace 1:WWW
+bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace 2:TERM
 bindsym $mod+3 workspace 3:VIRT
 bindsym $mod+4 workspace 4:IRC
@@ -106,7 +108,7 @@ bindsym $mod+z workspace prev_on_output
 bindsym $mod+x workspace next_on_output
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1:WWW
+bindsym $mod+Shift+1 move container to workspace $ws1
 bindsym $mod+Shift+2 move container to workspace 2:TERM
 bindsym $mod+Shift+3 move container to workspace 3:VIRT
 bindsym $mod+Shift+4 move container to workspace 4:IRC
