@@ -43,11 +43,25 @@ bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 ##Color Definitions
 set	$teal	#05dfdf
-set	$grey	#383838
+set	$grey	#191919
 set	$lgrey	#666666
 set	$black	#000000
 set	$white	#ffffff
 set	$red	#ff0000
+set	$sgrey	#172727
+
+##Default Colors?
+# class                 border  backgr. text    indicator child_border
+# client.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577
+# client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+# client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+# client.urgent           #2f343a #900000 #ffffff #900000   #900000
+
+# class			boarder	backgr.	text	indecator	child_border
+client.focused		$teal	$black	$white	$white		$teal
+client.focused_inactive	$teal	$black	$white	$white		$teal
+client.unfocused	$teal	$black	$white	$white		$teal
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
 
 
 # change focus
@@ -177,11 +191,11 @@ bar {
         position top
 	status_command i3blocks -c /home/bubba/.i3blocks.conf
 	colors {
-		#statusline	#999999
-		#background	$black
+		statusline	$teal
+		background	$grey
 
 		# Colors		border		backgr.		text
-		# focused_workspace	$white		$white		$black
+		 focused_workspace	$grey		$teal		$black
 		# active_workspace	#073642 	#073642 	#696f89
 		# inactive_workspace	#073642 	#073642		$white
 		# urgent_workspace  	$orange		$orange		$dark
