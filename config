@@ -91,13 +91,15 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+#set Workstation image text
 set $ws1 1: 
 set $ws2 2:
+set $ws3 3:
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace 3:VIRT
+bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace 4:IRC
 bindsym $mod+5 workspace 5:TS3
 bindsym $mod+6 workspace 6:STEAM
@@ -111,7 +113,7 @@ bindsym $mod+x workspace next_on_output
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
 bindsym $mod+Shift+2 move container to workspace $ws2
-bindsym $mod+Shift+3 move container to workspace 3:VIRT
+bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace 4:IRC
 bindsym $mod+Shift+5 move container to workspace 5:TS3
 bindsym $mod+Shift+6 move container to workspace 6:STEAM
