@@ -20,6 +20,7 @@ Required Packages:
 <li>openvpn
 <li>playerctl:
 <li>sysstat
+<li>alsa-utils
 </ul>
 
 Fonts used:
