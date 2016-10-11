@@ -39,7 +39,8 @@ bindsym $mod+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec rofi -show drun
+#bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 ##Color Definitions
 set	$teal	#05dfdf
@@ -58,9 +59,9 @@ set	$sgrey	#172727
 # client.urgent           #2f343a #900000 #ffffff #900000   #900000
 
 # class			boarder	backgr.	text	indecator	child_border
-client.focused		$teal	$black	$white	$white		$teal
-client.focused_inactive	$teal	$black	$white	$white		$teal
-client.unfocused	$teal	$black	$white	$white		$teal
+client.focused		$teal	$grey	$white	$white		$teal
+client.focused_inactive	$teal	$grey	$white	$white		$teal
+client.unfocused	$teal	$grey	$white	$white		$teal
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 
 
@@ -235,6 +236,7 @@ exec feh --bg-scale ~/bg.png
 exec --no-startup-id nm-applet
 
 ## Disable Window Title
+#Enable it for urxvt
 for_window [title="urxvt"] border pixel 1
 new_window none
 #new_float normal
