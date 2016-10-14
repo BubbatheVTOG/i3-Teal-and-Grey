@@ -1,8 +1,8 @@
 # .i3stuff
 
-Stuff for my i3 config
+<h1>Stuff for my i3 config</h1>
 
-Required Packages:
+<strong>Required Packages:</strong>
 <ul>
 <li>imagemagic
 <li>compton
@@ -24,8 +24,19 @@ Required Packages:
 <li>rofi
 </ul>
 
-Fonts used:
+<strong>Fonts used:</strong>
 <ul>
 <li>Nato Mono
 <li>Font Awesome
 </ul>
+
+<strong>Locations For Files</strong>
+/home/$USER
+	\ .Xresources
+	\ bg.png
+	\ .i3blocks.conf
+	\ .config
+		\ i3
+			\ compton.conf
+			\ config
+			\ i3lock.sh
