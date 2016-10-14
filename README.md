@@ -32,11 +32,13 @@
 
 <strong>Locations For Files</strong>
 /home/$USER
-\n\t	\ .Xresources
-\n\t	\ bg.png
-\n\t	\ .i3blocks.conf
-\n\t	\ .config
-\n\t\t		\ i3
-\n\t\t			\ compton.conf
-\n\t\t			\ config
-\n\t\t			\ i3lock.sh
+<pre>	|-.Xresources
+	|-bg.png
+	|-.i3blocks.conf
+	|-.config</pre>
+		\
+		| -i3
+			\
+			|-compton.conf
+			|-config
+			|-i3lock.sh
