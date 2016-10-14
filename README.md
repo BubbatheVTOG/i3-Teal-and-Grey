@@ -21,6 +21,7 @@ Required Packages:
 <li>playerctl:
 <li>sysstat
 <li>alsa-utils
+<li>rofi
 </ul>
 
 Fonts used:
