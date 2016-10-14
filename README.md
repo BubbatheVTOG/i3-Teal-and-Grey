@@ -31,14 +31,15 @@
 </ul>
 
 <strong>Locations For Files</strong>
-/home/$USER
-<pre>	|-.Xresources
+<pre>/home/$USER
+	|-.Xresources
 	|-bg.png
 	|-.i3blocks.conf
-	|-.config</pre>
+	|-.config
 		\
 		| -i3
 			\
 			|-compton.conf
 			|-config
 			|-i3lock.sh
+</pre>
