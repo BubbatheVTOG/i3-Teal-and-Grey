@@ -31,7 +31,7 @@
 </ul>
 
 <br>
-<strong>Locations For Files</strong>
+<strong>Locations For Files:</strong>
 <pre>/home/$USER
 	\
 	|- .Xresources
@@ -48,3 +48,10 @@
 			|- i3lock.sh
 	
 </pre>
+
+<strong>TODO's:</strong>
+<ul>
+<li>Switch out i3-lock for something more beautiful
+<li>implement xautolock to auto lock the screen.
+<li>Remove chrome from getting pixel boarders.
+<li>Add icons to ipaddr and datetime sections of i3blocks.
