@@ -1,5 +1,6 @@
 <h1>Stuff for my i3 config</h1>
 
+<p>Fake dirty screenies as an example.
 <a href="http://imgur.com/LPpoNXk"><img src="http://i.imgur.com/LPpoNXk.png" title="source: imgur.com" /></a>
 <a href="http://imgur.com/MJSHxye"><img src="http://i.imgur.com/MJSHxye.png" title="source: imgur.com" /></a>
 <br>
