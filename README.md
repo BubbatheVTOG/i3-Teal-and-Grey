@@ -2,6 +2,9 @@
 
 <a href="http://imgur.com/LPpoNXk"><img src="http://i.imgur.com/LPpoNXk.png" title="source: imgur.com" /></a>
 <a href="http://imgur.com/MJSHxye"><img src="http://i.imgur.com/MJSHxye.png" title="source: imgur.com" /></a>
+<br>
+<strong>Descripton:</strong>
+<p>This i3 theme was designed to fit around the background image. It is under constant development for small tweeks that I want to make as they appear. See the "todo" list to view the current tweeks that I'm planning to make. 
 
 <br>
 <strong>Required Packages:</strong>
