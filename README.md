@@ -67,3 +67,4 @@
 <li>Get better icons for nm-applet and pa-applet
 <li>Git mv the bg picture and .i3blocks.conf to the i3 folder (possibly moving to symlinking the git repo to my local files).
 <li>Update on this page to a picuter with better examples. 
+<li>Install script..? hmmm
