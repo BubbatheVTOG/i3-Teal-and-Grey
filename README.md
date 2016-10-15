@@ -1,5 +1,8 @@
 <h1>Stuff for my i3 config</h1>
 
+<a href="http://imgur.com/LPpoNXk"><img src="http://i.imgur.com/LPpoNXk.png" title="source: imgur.com" /></a>
+<a href="http://imgur.com/MJSHxye"><img src="http://i.imgur.com/MJSHxye.png" title="source: imgur.com" /></a>
+
 <br>
 <strong>Required Packages:</strong>
 <ul>
