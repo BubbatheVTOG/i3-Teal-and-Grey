@@ -38,9 +38,13 @@
 	|- bg.png
 	|- .i3blocks.conf
 	\- .config
+		\- gtk-3.0
+			\
+			|- settings.ini
 		\- i3
 			\
 			|- compton.conf
 			|- config
 			|- i3lock.sh
+	
 </pre>
