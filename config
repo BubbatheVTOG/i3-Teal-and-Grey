@@ -9,13 +9,13 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:Proxima Nova Thin, FontAwesome 8
+font pango:Proxima Nova Thin, FontAwesome 7
 #font pango:DejaVu Sans Mono, FontAwesome 6
 #font pango:Noto Sans Mono, FontAwesome 6 
 # Before i3 v4.8, we used to recommend this one as the default:
@@ -39,7 +39,7 @@ bindsym $mod+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec rofi -show drun
+bindsym $mod+d exec rofi -show drun 
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 ##Color Definitions
@@ -237,9 +237,9 @@ exec --no-startup-id nm-applet
 
 ## Disable Window Title
 #Enable it for urxvt
-for_window [title="urxvt"] border pixel 1
-new_window none
-#new_float normal
+#for_window [title="urxvt"] border pixel 1
+new_window pixel 1
+new_float normal
 
 ## Bind Print Screen
 #bindcode 107 exec /usr/bin/scrot 
@@ -270,7 +270,7 @@ mode "moveit" {
 bindsym $mod+m focus floating; mode "moveit"
 
 #exec the nice transisions
-exec_always compton --config /home/bubba/.config/compton.conf
+exec_always compton --config /home/$USER/.config/compton.conf
 
 #float java apps
 for_window [instance="sun-awt-X11-XFramePeer"] floating enable
