@@ -239,7 +239,7 @@ exec --no-startup-id nm-applet
 #Enable it for urxvt
 #for_window [title="urxvt"] border pixel 1
 new_window pixel 1
-new_float normal
+new_float pixel	1
 
 ## Bind Print Screen
 #bindcode 107 exec /usr/bin/scrot 
