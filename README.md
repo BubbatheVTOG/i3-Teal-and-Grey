@@ -1,7 +1,6 @@
-# .i3stuff
-
 <h1>Stuff for my i3 config</h1>
 
+<br>
 <strong>Required Packages:</strong>
 <ul>
 <li>imagemagic
@@ -24,12 +23,14 @@
 <li>rofi
 </ul>
 
+<br>
 <strong>Fonts used:</strong>
 <ul>
 <li>Nato Mono
 <li>Font Awesome
 </ul>
 
+<br>
 <strong>Locations For Files</strong>
 <pre>/home/$USER
 	|-.Xresources
