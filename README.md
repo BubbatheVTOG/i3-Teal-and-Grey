@@ -58,7 +58,7 @@
 	
 </pre>
 
-<strong>Stuff Being Worked on in This Branch:</strong>
+<strong>Stuff Being Worked on in The NEXT Branch:</strong>
 <ul>
 <li>Switch out i3-lock for something more beautiful.
 <li>implement xautolock to auto lock the screen.
