@@ -10,7 +10,7 @@
 <p>This i3 theme was designed to fit around the background image. It is under constant development for small tweeks that I want to make as they appear. See the "todo" list to view the current tweeks that I'm planning to make. 
 
 <br>
-<strong>Required Packages:</strong>
+<strong>Required Packages (Interdependent packages not listed):</strong>
 <ul>
 <li>imagemagic
 <li>compton
