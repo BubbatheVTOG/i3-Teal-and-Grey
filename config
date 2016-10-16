@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod4
+set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -240,6 +240,7 @@ exec --no-startup-id nm-applet
 #for_window [title="urxvt"] border pixel 1
 new_window pixel 1
 new_float pixel	1
+for_window [class="chromium"] border pixel 0
 
 ## Bind Print Screen
 #bindcode 107 exec /usr/bin/scrot 
