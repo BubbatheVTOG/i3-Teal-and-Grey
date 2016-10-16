@@ -63,6 +63,7 @@
 <li>Switch out i3-lock for something more beautiful
 <li>implement xautolock to auto lock the screen.
 <li>Add icons to ipaddr and datetime sections of i3blocks.
+<li><del>Remove chrome from getting pixel boarders.</del>
 <li>Get better icons for nm-applet and pa-applet
 <li>Git mv the bg picture and .i3blocks.conf to the i3 folder (possibly moving to symlinking the git repo to my local files).
 <li>Update on this page to a picture with better examples. 
