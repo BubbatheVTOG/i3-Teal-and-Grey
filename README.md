@@ -10,7 +10,8 @@
 <p>This i3 theme was designed to fit around the background image. It is under constant development for small tweeks that I want to make as they appear. See the "todo" list to view the current tweeks that I'm planning to make. 
 
 <br>
-<strong>Required Packages (Dependencies of these Packages NOT Listed):</strong>
+<strong>Required Packages:</strong>
+(Dependencies of these Packages NOT Listed. Pakage names are based on Arch package names. Obvious packages not listed (ex: xorg)
 <ul>
 <li>imagemagic
 <li>compton
