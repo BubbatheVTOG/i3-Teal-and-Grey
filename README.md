@@ -1,5 +1,14 @@
 <h1>Stuff for my i3 config</h1>
 
+<strong>Fake dirty screenies as an example:</strong>
+<a href="http://imgur.com/LPpoNXk"><img src="http://i.imgur.com/LPpoNXk.png" title="source: imgur.com" /></a>
+<a href="http://imgur.com/MJSHxye"><img src="http://i.imgur.com/MJSHxye.png" title="source: imgur.com" /></a>
+
+<br>
+<br>
+<strong>Descripton:</strong>
+<p>This i3 theme was designed to fit around the background image. It is under constant development for small tweeks that I want to make as they appear. See the "todo" list to view the current tweeks that I'm planning to make. 
+
 <br>
 <strong>Required Packages:</strong>
 <ul>
@@ -31,16 +40,31 @@
 </ul>
 
 <br>
-<strong>Locations For Files</strong>
+<strong>Locations For Files:</strong>
 <pre>/home/$USER
 	\
 	|- .Xresources
 	|- bg.png
 	|- .i3blocks.conf
 	\- .config
+		\- gtk-3.0
+			\
+			|- settings.ini
 		\- i3
 			\
 			|- compton.conf
 			|- config
 			|- i3lock.sh
+	
 </pre>
+
+<strong>TODO's:</strong>
+<ul>
+<li>Switch out i3-lock for something more beautiful
+<li>implement xautolock to auto lock the screen.
+<li>Remove chrome from getting pixel boarders.
+<li>Add icons to ipaddr and datetime sections of i3blocks.
+<li>Get better icons for nm-applet and pa-applet
+<li>Git mv the bg picture and .i3blocks.conf to the i3 folder (possibly moving to symlinking the git repo to my local files).
+<li>Update on this page to a picuter with better examples. 
+<li>Install script..? hmmm
