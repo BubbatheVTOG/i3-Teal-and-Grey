@@ -81,3 +81,12 @@ Xft*hinting:            full
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste 
 URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
+
+! ------------------------------------------------------------------------------
+! ! ROFI Color theme
+! ! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #191919, #05dfdf, #05dfdf
+rofi.color-normal: #191919, #05fdfd, #191919, #191919, #05dfdf
+rofi.color-active: #191919, #05fdfd, #191919, #191919, #05fdfd
+rofi.color-urgent: #191919, #05fdfd, #191919, #191919, #05fdfd
