@@ -58,7 +58,7 @@
 	
 </pre>
 
-<strong>TODO's:</strong>
+<strong>What's Planned in the 'next' Branch:</strong>
 <ul>
 <li>Switch out i3-lock for something more beautiful
 <li>implement xautolock to auto lock the screen.
