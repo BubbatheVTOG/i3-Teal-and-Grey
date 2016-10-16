@@ -223,6 +223,7 @@ bindsym F9 exec pamixer --decrease 1
 
 ## Set Screen Lock awesomeness
 bindsym $mod+BackSpace exec sh ~/.config/i3/i3lock.sh
+#bindsym $mod+BackSpace exec i3lock-fancy -- scrot
 
 ## Set Chrome Launch
 bindsym $mod+c exec chromium
