@@ -11,7 +11,7 @@
 
 <br>
 <strong>Required Packages:</strong>
-(Dependencies of these Packages NOT Listed. Pakage names are based on Arch package names. Obvious packages not listed (ex: xorg)
+<p>(Dependencies of these Packages NOT Listed. Pakage names are based on Arch package names. Obvious packages not listed (ex: xorg)
 <ul>
 <li>imagemagic
 <li>compton
