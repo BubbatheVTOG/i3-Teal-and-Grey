@@ -223,6 +223,7 @@ bindsym F9 exec pamixer --decrease 1
 
 ## Set Screen Lock awesomeness
 bindsym $mod+BackSpace exec sh ~/.config/i3/i3lock.sh
+#bindsym $mod+BackSpace exec i3lock-fancy -- scrot
 
 ## Set Chrome Launch
 bindsym $mod+c exec chromium
@@ -240,6 +241,7 @@ exec --no-startup-id nm-applet
 #for_window [title="urxvt"] border pixel 1
 new_window pixel 1
 new_float pixel	1
+for_window [class="chromium"] border pixel 0
 
 ## Bind Print Screen
 #bindcode 107 exec /usr/bin/scrot 
