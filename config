@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod4
+set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -59,7 +59,7 @@ set	$sgrey	#172727
 # client.urgent           #2f343a #900000 #ffffff #900000   #900000
 
 # class			boarder	backgr.	text	indecator	child_border
-client.focused		$teal	$grey	$white	$white		$teal
+client.focused		$teal	$teal	$lgrey	$white		$teal
 client.focused_inactive	$teal	$grey	$white	$white		$teal
 client.unfocused	$teal	$grey	$white	$white		$teal
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
