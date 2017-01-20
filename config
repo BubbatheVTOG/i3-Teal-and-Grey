@@ -189,6 +189,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 	i3bar_command i3bar -t
+	tray_output primary
         position top
 	status_command i3blocks -c /home/bubba/.i3blocks.conf
 	colors {
@@ -233,7 +234,7 @@ exec --no-startup-id /usr/bin/pasystray
 exec /usr/bin/pulseaudio --start
 exec /usr/bin/xrdb /home/bubba/.Xresources
 #exec /user/xcalib /home/bubba/Samsung_700Z7C_FHD_matt_CMO.icc
-exec feh --bg-scale ~/bg.png
+exec feh --bg-scale ~/bg.png --bg-scale bg4k90.png
 exec --no-startup-id nm-applet
 
 ## Disable Window Title
@@ -281,3 +282,13 @@ for_window [instance="sun-awt-X11-XFramePeer"] floating enable
 gaps inner 10
 gaps outer 0
 smart_gaps on
+
+#bindings for external 4k display rotated 90 degrees
+#4k or default mode (virt 4k)
+bindsym $mod+Control+1 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x1800 --primary --dpi 108x109 --output HDMI-0 --auto --pos 2560x0 --rotate left --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg4k90.png
+#1 to 1 mode (virt 4k)
+bindsym $mod+Control+2 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x800 --primary --dpi 108x109 --output HDMI-0 --mode 2560x1440 --pos 2560x0 --rotate left --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg90.png
+#4k or default mode (horizontal 4k)
+bindsym $mod+Control+3 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x1800 --primary --dpi 108x109 --output HDMI-0 --auto --pos 2560x0 --rotate normal --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg4k.png
+#1 to 1 mode (horizontal 4k)
+bindsym $mod+Control+4 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x0 --primary --dpi 108x109 --output HDMI-0 --mode 2560x1440 --pos 2560x0 --rotate normal --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg.png
