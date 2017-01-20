@@ -285,10 +285,10 @@ smart_gaps on
 
 #bindings for external 4k display rotated 90 degrees
 #4k or default mode (virt 4k)
-bindsym $mod+Control+1 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x1800 --primary --dpi 108x109 --output HDMI-0 --auto --pos 2560x0 --rotate left --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg4k90.png
+bindsym $mod+Control+1 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x1600 --primary --dpi 108x109 --output HDMI-0 --auto --pos 2560x0 --rotate left --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg4k90.png; exec pkill compton; exec compton --config ~/.config/compton.conf
 #1 to 1 mode (virt 4k)
-bindsym $mod+Control+2 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x800 --primary --dpi 108x109 --output HDMI-0 --mode 2560x1440 --pos 2560x0 --rotate left --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg90.png
+bindsym $mod+Control+2 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x800 --primary --dpi 108x109 --output HDMI-0 --mode 2560x1440 --pos 2560x0 --rotate left --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg90.png; exec pkill compton;  exec compton --config ~/.config/compton.conf
 #4k or default mode (horizontal 4k)
-bindsym $mod+Control+3 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x1800 --primary --dpi 108x109 --output HDMI-0 --auto --pos 2560x0 --rotate normal --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg4k.png
+bindsym $mod+Control+3 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x1800 --primary --dpi 108x109 --output HDMI-0 --auto --pos 2560x0 --rotate normal --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg4k.png; exec pkill compton; exec compton --config ~/.config/compton.conf
 #1 to 1 mode (horizontal 4k)
-bindsym $mod+Control+4 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x0 --primary --dpi 108x109 --output HDMI-0 --mode 2560x1440 --pos 2560x0 --rotate normal --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg.png
+bindsym $mod+Control+4 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x0 --primary --dpi 108x109 --output HDMI-0 --mode 2560x1440 --pos 2560x0 --rotate normal --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg.png; exec pkill compton; exec compton --config ~/.config/compton.conf
