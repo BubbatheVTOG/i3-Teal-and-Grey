@@ -1,0 +1,92 @@
+! --- ~/.Xresources ------------------------------------------------------------
+! ------------------------------------------------------------------------------
+! --- generated with 4bit Terminal Color Scheme Designer -----------------------
+! ------------------------------------------------------------------------------
+! --- http://ciembor.github.com/4bit -------------------------------------------
+! ------------------------------------------------------------------------------
+
+! --- special colors ---
+
+*background: #d9d9d9
+*foreground: #000000
+
+! --- standard colors ---
+
+! black
+*color0: #141114
+
+! bright_black
+*color8: #423f43
+
+! red
+*color1: #ce1518
+
+! bright_red
+*color9: #ce6b6f
+
+! green
+*color2: #18cb18
+
+! bright_green
+*color10: #6ecb6f
+
+! yellow
+*color3: #cecb18
+
+! bright_yellow
+*color11: #cecb6f
+
+! blue
+*color4: #1815ce
+
+! bright_blue
+*color12: #6e6bce
+
+! magenta
+*color5: #ce15ce
+
+! bright_magenta
+*color13: #ce6bce
+
+! cyan
+*color6: #18cbce
+
+! bright_cyan
+*color14: #6ecbce
+
+! white
+*color7: #a09da0
+
+! bright_white
+*color15: #cecbce
+
+
+! ------------------------------------------------------------------------------
+! --- end of terminal colors section -------------------------------------------
+! ------------------------------------------------------------------------------
+
+urxvt*transparent: false
+urxvt*shading: 70
+URxvt*urlLauncher:         chromium  
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:        true
+URxvt*scrollColor:        #000000
+
+
+
+Xft*antialias:          true
+Xft*hinting:            full
+
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste 
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+
+! ------------------------------------------------------------------------------
+! ! ROFI Color theme
+! ! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #191919, #05dfdf, #05dfdf
+rofi.color-normal: #191919, #05fdfd, #191919, #191919, #05dfdf
+rofi.color-active: #191919, #05fdfd, #191919, #191919, #05fdfd
+rofi.color-urgent: #191919, #05fdfd, #191919, #191919, #05fdfd
