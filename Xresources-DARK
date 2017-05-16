@@ -65,21 +65,24 @@
 ! --- end of terminal colors section -------------------------------------------
 ! ------------------------------------------------------------------------------
 
-urxvt*transparent: true
-urxvt*shading: 30
-URxvt*urlLauncher:         chromium  
-URxvt*scrollBar:        false
-URxvt*scrollBar_right:        true
-URxvt*scrollColor:        #000000
+urxvt*transparent:	true
+urxvt*shading:		30
+URxvt*urlLauncher:	chromium  
+URxvt*scrollBar:	false
+URxvt*scrollBar_right:	true
+URxvt*scrollColor:	#000000
+URxvt.saveLines:	8192
 
 
-
+Xft.dpi:		108
 Xft*antialias:          true
 Xft*hinting:            full
 
+! Default: 7x15(comment out!); Wide: 9x15; "Large" 10x20; "LARGE" 12x24
+! URxvt.font:		12x24
 
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste 
-URxvt.iso14755: False
+!URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 
 ! ------------------------------------------------------------------------------
