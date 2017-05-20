@@ -15,7 +15,7 @@ set $mod Mod1
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:Proxima Nova Thin, FontAwesome 7
+font pango:Proxima Nova Thin 7, FontAwesome 7
 #font pango:DejaVu Sans Mono, FontAwesome 6
 #font pango:Noto Sans Mono, FontAwesome 6 
 # Before i3 v4.8, we used to recommend this one as the default:
@@ -273,7 +273,7 @@ mode "moveit" {
 bindsym $mod+m focus floating; mode "moveit"
 
 #exec the nice transisions
-exec_always compton --config /home/$USER/.config/compton.conf
+#exec_always compton --config /home/$USER/.config/compton.conf
 
 #float java apps
 for_window [instance="sun-awt-X11-XFramePeer"] floating enable
