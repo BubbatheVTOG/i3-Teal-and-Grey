@@ -67,7 +67,7 @@
 
 urxvt*transparent:	true
 urxvt*shading:		30
-URxvt*urlLauncher:	chromium  
+URxvt*urlLauncher:	chromium
 URxvt*scrollBar:	false
 URxvt*scrollBar_right:	true
 URxvt*scrollColor:	#000000
@@ -88,9 +88,20 @@ Xft.rgba:		rgb
 ! URxvt.font:		12x24
 urxvt.font: 		xft:inconsolata:pixelsize=18
 
-URxvt.keysym.Shift-Control-V: perl:clipboard:paste 
 !URxvt.iso14755: False
-URxvt.perl-ext-common: default,clipboard
+! Change letter spacing by 1 pixel
+URxvt.letterSpace: -1
+
+! Keybinding for font resize.
+URxvt.resize-font.smaller:	C-Down
+URxvt.resize-font.bigger:	C-Up
+! Disable default keybinds.
+URxvt.iso14755:			false
+URxvt.iso14755_52:		false
+
+! Enable urxvt extensions.
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.perl-ext-common: default,clipboard,resize-font
 
 ! ------------------------------------------------------------------------------
 ! ! ROFI Color theme
