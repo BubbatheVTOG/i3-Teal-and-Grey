@@ -74,9 +74,6 @@ URxvt*scrollColor:	#000000
 URxvt.saveLines:	8192
 
 
-! dpi for monitor 96 (default)
-! Xft.dpi:		96
-! dpi for Pixel
 Xft.dpi:		144
 Xft*antialias:          true
 Xft*hinting:            full
@@ -89,9 +86,7 @@ Xft.rgba:		rgb
 
 ! Default: 7x15(comment out!); Wide: 9x15; "Large" 10x20; "LARGE" 12x24
 ! URxvt.font:		12x24
-
-! Font for Pixel
-! urxvt.font: 		xft:inconsolata:pixelsize=12
+urxvt.font: 		xft:inconsolata:pixelsize=18
 
 !URxvt.iso14755: False
 ! Change letter spacing by 1 pixel
