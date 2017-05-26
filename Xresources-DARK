@@ -8,7 +8,8 @@
 ! --- special colors ---
 
  *background: #141114
- *foreground: #a09da0
+! Original color: a09da0
+ *foreground: #c3c1c3
 
 ! --- standard colors ---
 
