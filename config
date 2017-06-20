@@ -17,7 +17,7 @@ set $mod Mod1
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango:Proxima Nova Thin 7, FontAwesome 7
 #font pango:DejaVu Sans Mono, FontAwesome 6
-#font pango:Noto Sans Mono, FontAwesome 6 
+#font pango:Noto Sans Mono, FontAwesome 6
 # Before i3 v4.8, we used to recommend this one as the default:
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
@@ -39,7 +39,7 @@ bindsym $mod+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec rofi -show drun 
+bindsym $mod+d exec rofi -show drun
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 ##Color Definitions
@@ -116,7 +116,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 #set Workstation image text
-set $ws1 1: 
+set $ws1 1:
 set $ws2 2:
 set $ws3 3:
 set $ws4 4:
@@ -230,7 +230,7 @@ bindsym $mod+BackSpace exec sh ~/.config/i3/i3lock.sh
 bindsym $mod+c exec chromium
 
 ## Start up stuff
-exec --no-startup-id /usr/bin/pasystray 
+exec --no-startup-id /usr/bin/pasystray
 exec /usr/bin/pulseaudio --start
 exec /usr/bin/xrdb /home/bubba/.Xresources
 #exec /user/xcalib /home/bubba/Samsung_700Z7C_FHD_matt_CMO.icc
@@ -245,7 +245,7 @@ new_float pixel	1
 for_window [class="Chromium"] border none
 
 ## Bind Print Screen
-#bindcode 107 exec /usr/bin/scrot 
+#bindcode 107 exec /usr/bin/scrot
 
 ## If you are uing Gnome and the i3-Gnome Package
 #bindsym $mod+Shift+q exec gnome-session-quit --logout
@@ -264,7 +264,7 @@ mode "moveit" {
         bindsym k move up 20 px
         bindsym l move left 20 px
 	bindsym semicolon move right 20 px
-	
+
 	bindsym $mod+m mode "default"
 	bindsym Escape mode "default"
 	bindsym Return mode "default"
@@ -292,3 +292,5 @@ bindsym $mod+Control+2 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 
 bindsym $mod+Control+3 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x1800 --primary --dpi 108x109 --output HDMI-0 --auto --pos 2560x0 --rotate normal --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg4k.png; exec pkill compton; exec compton --config ~/.config/compton.conf
 #1 to 1 mode (horizontal 4k)
 bindsym $mod+Control+4 exec xrandr --output DP-0 --auto --mode 2560x1440 --rate 144 --pos 0x0 --primary --dpi 108x109 --output HDMI-0 --mode 2560x1440 --pos 2560x0 --rotate normal --scale 1x1; exec feh --bg-scale bg.png --bg-scale bg.png; exec pkill compton; exec compton --config ~/.config/compton.conf
+
+# vim:filetype=i3
